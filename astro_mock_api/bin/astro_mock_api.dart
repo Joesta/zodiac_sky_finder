@@ -8,7 +8,7 @@ import 'package:shelf_router/shelf_router.dart';
 
 void main(List<String> args) async {
   final router = Router();
-  final defaultPort = '1250';
+  const defaultPort = '1250';
 
   // Endpoint: GET /zodiac?sign=Aries
   router.get('/zodiac', (Request req) {

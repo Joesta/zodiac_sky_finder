@@ -45,7 +45,7 @@ zodiac_sky_finder/
 
 ### 1. Clone the Repository
 ``` bash
-git clone https://github.com/your-username/zodiac_sky_finder.git
+git clone https://github.com/joesta/zodiac_sky_finder.git
 cd zodiac_sky_finder
 ```
 
@@ -61,8 +61,8 @@ dart run bin/astro_mock_api.dart
 ```
 ## By default, this starts on http://10.0.2.2:1250.
 
-### 4. Run on different port by edittting astro_mock_api.dart
- > final port = 3001;
+### 4. Run on different port by editing astro_mock_api.dart
+ > configs/conf.dart defaultPort = 1250;
 
 ### 5. Run the app
 ``` bash
