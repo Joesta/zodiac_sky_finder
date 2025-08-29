@@ -16,7 +16,7 @@ The app uses **BLoC** for state management, a **service layer** for API calls, a
 ---
 
 ## Project Structure
-
+``` bash
 zodiac_sky_finder/
 │
 ├── lib/
@@ -29,7 +29,7 @@ zodiac_sky_finder/
 │ └── bin/astro_mock_api.dart
 │
 └── pubspec.yaml
-
+```
 ---
 
 ## Prerequisites
